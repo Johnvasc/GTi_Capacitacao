@@ -34,7 +34,7 @@ O _Live Server_ vai abrir a sua página, que nesse momento esta vazia, no navega
 ```
 Assim fica o nosso site ao final dessa aula:
 
-![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/eed06f16-2ec9-4489-b46e-0fc91a6c4f7f)
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/c1c13a60-e6e8-469c-8f20-ffef219c4ec3)
 
 
 ## Lição de casa:
