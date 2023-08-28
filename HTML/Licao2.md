@@ -1,4 +1,4 @@
-# Segmentando o página usando tags do Body:
+# Segmentando o página usando a sintaxe:
 
 Nessa lição iremos conhecer e experimentar um pouco mais as principais tags presentes no html para a segmentação da página web. Essa segmentação é muito importante para nossa página web por diversos motivos: ela deixa o código mais compreensivo e de melhor manutenção, habilita uma melhor sintaxe entre os devs, componentiza um pouco as coisas, ajuda em questões de acessibilidade e responsividade e também torna o site mais ou menos relevante para os principais motores de busca.
 
@@ -24,9 +24,6 @@ Repare que as divs são _chields_ do elemento pai, a section. Em geral divs est�
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/fcd16751-43fb-450a-b96f-4c079a238878)
 
-
-
-
-
-
+## Atividade:
+Vamos retomar o código da lição anterior e utilizar a sintaxe correta para segmentá-lo, colocando os elementos da página como chields dos segmentadores seguindo a sintaxe do html. Começaremos com o cabeçalho
 
