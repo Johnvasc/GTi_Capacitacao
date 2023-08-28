@@ -7,8 +7,14 @@ Abreviação de "navigation bar" (barra de navegação), é um componente comum 
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/35cbbfc6-9c4d-461f-80ed-7442eb863451)
 
+## Main:
+A tag <main> é um elemento HTML introduzido na especificação HTML5 para denotar o conteúdo principal de uma página da web. Ela é usada para agrupar o conteúdo central e principal de uma página, excluindo cabeçalhos, rodapés, barras laterais e outros elementos secundários.
+
+O elemento <main> é uma parte importante do esforço para melhorar a acessibilidade e a estrutura semântica dos documentos HTML. Ao envolver o conteúdo principal em uma tag <main>, você está indicando claramente para os navegadores e tecnologias assistivas qual é a parte mais relevante do conteúdo.
+
+
 ## Section:
-O corpo principal das páginas é dividido em várias seções. No html usamos a tag `<section>`. Segue um exemplo de section:
+Em uma divisão da Main, que engloba um único tipo de conteudo. Uma analogia pode ser feita a um supermercado, onde existem seções de laticínos, onde só vende laticínios. No site, pode existir uma seção "sobre nós", "contatos" ou "nossos clientes". No html usamos a tag `<section>`. Segue um exemplo de section:
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/a5e95cd7-7a1f-48c5-b552-e8f354bd81a2)
 
@@ -25,5 +31,10 @@ Repare que as divs são _chields_ do elemento pai, a section. Em geral divs est�
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/fcd16751-43fb-450a-b96f-4c079a238878)
 
 ## Atividade:
-Vamos retomar o código da lição anterior e utilizar a sintaxe correta para segmentá-lo, colocando os elementos da página como chields dos segmentadores seguindo a sintaxe do html. Começaremos com o cabeçalho
+Vamos retomar o código da lição anterior e utilizar a sintaxe correta para segmentá-lo, colocando os elementos da página como chields dos segmentadores seguindo a sintaxe do html. Começaremos com o cabeçalho:
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/57044335-e0d6-45da-b95c-d85ad1abbef2)
+
+primeiro crie um elemento nav. Em seguida crie duas divs chields. Dentro da primeira div coloque as tags de link e dentro da segunda o título h1 e o subtítulo.
+
 
