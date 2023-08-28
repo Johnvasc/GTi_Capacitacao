@@ -49,7 +49,4 @@ O link do Visual Studio Code: https://code.visualstudio.com/
 
 ## Tags do Body:
 
- Body, como foi dito, é a parte física do site, a parte visual. É muito importante usar a semantica correta do HTML, isso é, usar as tags para suas funções corretas. Quando vamos fazer um site, podemos quebrá-lo em partes. Essas partes são a navbar, sessões, divs e o footer. Todas essas quebras representam tags do html. Veja o exemplo da imagem abaixo, onde existe um sessão de números (vermelho) e dentro da sessão existem quatros subdivisões (duas delas destacadas em verde), divs.
-
- ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/8b6ea347-88c6-467d-b75c-bb6571ce11df)
-
+ Body, como foi dito, é a parte física do site, a parte visual. É muito importante usar a semantica correta do HTML, isso é, usar as tags para suas funções corretas. Quando vamos fazer um site, podemos quebrá-lo em partes. São exemplos de partes a navbar, sessões, divs e o footer. Todas essas quebras representam tags do html. Veremos um pouco mais sobre Head e Body na próxima aula!
