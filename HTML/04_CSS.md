@@ -76,7 +76,7 @@ Na aula passada criamos diversos formulários, mas eles pareciam bem "crus". Que
         <button>Login</button>
     </form>
 ```
-### Personalizando a div:
+### Personalizando o form:
 
 Primeiro vamos mexer no corpo do formulário. Escolha uma cor que ache interessante e coloque no css para a tag form, seguindo a sintaxe:
 
@@ -90,3 +90,8 @@ Agora vamos adicionar mais comandos no forms:
 + **padding:** uma vez com o tamanho e a cor selecionada, podemos perceber que nossos campos de formulário estão muito colados no elemento pai. Assim, devemos usar o padding. Padding é uma instrução sobre a distancia dos elementos filhos da borda. Experimente colocar um padding: 40px;
 + **mais sobre o padding:** repare com elemento pai tem quatro bordas: cima, esquerda, baixo e direita. Podemos escolher a distancia de maneira personalizada, para cada um desses lados com a sintaxe: `padding: 20px 30px 20px 30px;`. Outra maneira de selecionar padding é a seguinte: `padding: alturaDeCima alturaDosLados`, no caso da altura de cima e de baixo serem as mesmas, bem como as laterais, por exemplo: `padding: 2em .5em;` (no CSS, .5 é a mesma coisa que 0.5).
 + **border:** vamos colocar uma borda em nosso formulário. Você pode usar o comando: `border: tipo tamanho cor`, por exemplo: `border: solid 1px gold;`
++ **border-radius:** nosso formulário esta ficando legal, mas ainda esta um pouco quadradão, então vamos arredondá-lo usando o comando `border-radius: tamanhoDoArredondamento;`, escolha um valor em px, rem, em.
+
+
+### Personalizando ainda mais:
+Qual personalizamos nosso form ainda mais? Agora vamos para os campos. Edite primeiro as labels, usando os comandos: `color:` para mudar a cor da fonte, `font-size:` para mudar o tamanho da fonte (px, rem, em). Mude também os inputs, usando os comandos `width` e `background-color`, bem como o botão. No botão não esqueça de usar um `padding` para aumentar seu tamanho e border-radius para arredondá-lo!
