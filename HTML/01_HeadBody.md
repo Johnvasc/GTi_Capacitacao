@@ -12,7 +12,8 @@ A head é a tag que abriga a parte conceitual do site. Aqui também, em um futur
 ## Body:
 O body é a tag que abriga a parte visual e interativa do site, o famoso UI (User Interface). Ele deve estar vazio agora em seu projeto, então iremos introduzir algumas tags. Primeiro, abra o _Live Server_, ele deve estar no canto inferior direito da IDE, conforme a imagem abaixo:
 
-![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/7dc550c0-0e0a-4206-9222-b256fe64de1a)
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/72207b6d-1665-4a1a-941f-cee683b547a1)
+
 
 O _Live Server_ vai abrir a sua página, que nesse momento esta vazia, no navegador. Vamos testar algumas tags no código:
 * `<h1>Olá mundo!</h1>`: Essa é tag `<h1>` ou simplesmente tag título. Semanticamente, é onde vir títulos importantes de sessões ou até mesmo o título do site. Salve essa alteração no código (para salvar alterações rápidas no código use sempre `ctrl + s`) e visite a página da web no navegador. Existem outras tags de título de hierarquia inferior, começando sempre com h.
