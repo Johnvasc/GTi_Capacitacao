@@ -19,7 +19,7 @@ Assim, nossa tag form vai ficar com essa cara: `<form method="get" action="/envi
 
 Em geral, formulários tem campos para o usuário responder. Vamos experimentar alguns deles. Dentro da tag `<form>` insira:
 + **label:** Labels são textos de descrição. Eles descrevem o tipo de informação que o usuário deve colocar no input abaixo. Então coloque a seguinte label: `<label for="username">Seu nome</label>`
-+ **input:** Inputs são os campos que receberão as respostas do usuário. Existem vários tipos de input: texto, número, senha, data, etc. O tipo do campo vai ser definido no argumento _type_. Então coloque: `<input name="username" type="text">`. Perceba o atributo _name_. Ele faz a união da tag com o input, relacionando-se com o _for_.
++ **input:** Inputs são os campos que receberão as respostas do usuário. Existem vários tipos de input: texto, número, senha, data, etc. O tipo do campo vai ser definido no argumento _type_, por exemplo: "text", "password", "number", entre outros. Então coloque: `<input name="username" type="text">`. Perceba o atributo _name_. Ele faz a união da tag com o input, relacionando-se com o _for_.
 + **label 2:** Iremos inserir mais labels, uma para cada campo, então coloque: `<label for="password">sua senha</label>`
 + **button:** Essa tag cria um botão para envio de formulário ou chamado de funções javascript. Ele deve ficar assim: `<button>Entrar</button>`. O texto "Entrar", localizado na tag é o texto exibido no botão.
 + **br:** Br é a tag de quebrar linha (deve vir do inglês, break). Coloque uma tag br depois de cada tag acima para o formulário ficar mais legível.
@@ -38,8 +38,31 @@ Perceba sua URL na parte de cima do navegador. Ela deve estar como na imagem aba
 
 Repare que existem dois campos na URL o **username** e o **password**, eles aparecem logo após o **?**. Esse é o modelo de envio de dados pela URL, ela segue o seguinte padrão: `www.urldosite?campo1=valor1&campo2=valor2&...campoN=valorN`. Existem outras maneiras de enviar dados pela web, essa é só uma delas. Você pode perceber que nossa senha esta sendo enviada sem qualquer tipo de segurança e nossa conta poderia ser facilmente hackeada, mas esse tipo de envio funciona para dados menos sensíveis.
 
+## Placeholder:
+
+Uma opção ao uso da tag <label> é a insersão do argumento placeholder dentro do input. Ele segue a seguinte sintaxe: `<input name="username" type="text" placeholder="Seu nome">` Esse argumento vai fazer que o texto que voc
+
+
 ## Tarefa de casa:
 No formulario.html recrie os seguintes formulários (obs, use as sugestões do VSCode enquanto estiver digitando input para conseguir dicas to type do input):
 
 **1. formulário com campo numérico:**
+
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/66cb5a22-a6b9-4223-9743-2985ed226bc4)
+
+**2. formulário com checkbox:**
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/605a3002-f700-43ef-91fb-3c59d97f8420)
+
+**3. formulário com range e data:**
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/7314b54f-0034-496e-8a69-a92be439d6de)
+
+**4. formulário com placeholder:**
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/36f684a0-6898-427b-a1e5-f09390cbe35d)
+
+**5. formulário com color, radio (três deles) e range:**
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/219ecfaf-be08-44e5-a8b9-5f7c592d8ead)
+
