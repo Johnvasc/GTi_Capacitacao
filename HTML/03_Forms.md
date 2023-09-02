@@ -44,7 +44,7 @@ Uma opção ao uso da tag <label> é a insersão do argumento placeholder dentro
 
 
 ## Tarefa de casa:
-No formulario.html recrie os seguintes formulários (obs, use as sugestões do VSCode enquanto estiver digitando input para conseguir dicas to type do input):
+No formulario.html recrie os seguintes formulários (obs, use as sugestões do VSCode enquanto estiver digitando input para conseguir dicas do type do input):
 
 **1. formulário com campo numérico:**
 
@@ -65,4 +65,8 @@ No formulario.html recrie os seguintes formulários (obs, use as sugestões do V
 **5. formulário com color, radio (três deles) e range:**
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/219ecfaf-be08-44e5-a8b9-5f7c592d8ead)
+
+**6. formulário de envio de arquivos:**
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/415dea2e-190d-4060-addb-9afe081c1685)
 
