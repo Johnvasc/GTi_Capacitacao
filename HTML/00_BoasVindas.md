@@ -17,18 +17,21 @@ O link do Visual Studio Code: https://code.visualstudio.com/
 
   ![image](https://user-images.githubusercontent.com/39773960/218003188-84f525d9-d2b4-42a0-9aff-204165c1e29b.png)
 
-  3) Clique em extenções e instale a extensão "Live Server":
+  3) Uma vez dentro do VSCode você vai ver uma barra lateral na esquerda. Clique em extenções e instale a extensão "Live Server":
 
   ![image](https://user-images.githubusercontent.com/39773960/218003414-d43f41f1-6e98-4bd7-bac8-3b5323efa95b.png)
 
-## Nosso HTML!
-  Com tudo pronto, vamos criar e colocar algumas senteças no nosso arquivo HTML. Também vamos entender um pouco das tags que compõe essa _linguagem de marcação!_
+## Entendendo o HTML:
+O HTML (Hypertext Markup Language) é uma linguagem de marcação usada para criar páginas da web. Ele define a estrutura e o conteúdo de uma página, usando as tags para marcar elementos como títulos, parágrafos, imagens e links, permitindo que os navegadores interpretem e exibam esses elementos de forma adequada aos usuários. Em resumo, o HTML é a base das páginas da web, organizando e formatando o conteúdo para que possa ser visualizado em um navegador da internet.
+
+## Criando nosso HTML!
+  Entendendo essa _linguagem de marcação_, vamos criar e colocar algumas senteças no nosso arquivo HTML. Também vamos entender um pouco das tags do HTML e de sua estrutura e sintaxe.
   
   1) Para criar nosso arquivo HTML você vai clicar no icone de papel com um + na parte superior do VScode, conforme a imagem:
 
   ![image](https://user-images.githubusercontent.com/39773960/218003592-98f4db33-3bc7-49de-8492-6debf8fea169.png)
 
-  2) Nomeie seu arquivo como quiser, mas repare que a extensão do arquivo necessariamente tem que acabar com .html.
+  2) Nomeie seu arquivo como quiser, mas repare que a extensão do arquivo necessariamente tem que acabar com .html (comumente o arquivo primário html é chamado index).
 
   3) **Agora uma dica interessante do VSCode:** arquivos html tem uma estrutura padrão bem difícil de memorizar, mas com o VScode, não vamos precisar lembrar. Tudo que precisamos é começar a escrever e alguns atalhos se oferecerão, clique neles com o mouse para completar. No caso do html, comece escrevendo html e as sugestões vão aparecer, clique na sugestão: html:5 e veja a mágica acontecer!
 
