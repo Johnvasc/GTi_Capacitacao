@@ -24,7 +24,7 @@ O _Live Server_ vai abrir a sua página, que nesse momento esta vazia, no navega
 * `<p>apresentando: <i>Sou a tag do itálico</i></p>`: Essa tag vem dentro da tag de paragrafo para dar ênfase a alguma parte do texto ou destacar palavras estranjeiras.
 * `<p>apresentando: <s>Soua a tag do taxado</i></p>`: Essa tag vem dentro da tag de paragrafo para cortar/taxar o texto.
 * `<a href="google.com">sou um link</a>`: Essa tag é a tag de link, que pode redirecionar o usuário para outro site ou sessão. O atributo `href` referencia ao endereço a ser direcionado, então teste mudar para algum outro site. A tag link pode vir dentro ou não da tag p.
-* `ol ou ul`: são listas ordenadas (ordereds) e não-ordenadas (unordereds) com itens `<li>eu sou um item</li>`. A sintaxe segue o exemplo:
+* `ol ou ul`: são listas ordenadas (ordely) e não-ordenadas (unordely) com itens `<li>eu sou um item</li>`. A sintaxe segue o exemplo:
 ```
 <ul>
   <li>item 1</li>
@@ -34,13 +34,10 @@ O _Live Server_ vai abrir a sua página, que nesse momento esta vazia, no navega
 </ul>
 ```
 
-
-![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/c1c13a60-e6e8-469c-8f20-ffef219c4ec3)
-
-
 ## Lição de casa:
 
 Use as tags textuais que você aprendeu nessa lição para replicar a página abaixo:
 
-![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/dd767ae1-bff5-46f7-b39c-f7059b8f2394)
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/261d6858-c41e-4db2-a519-0500cfe8befd)
+
 
