@@ -28,4 +28,18 @@ Em geral, formulários tem campos para o usuário responder. Vamos experimentar 
 
 Agora você pode visitar sua página na web e tentar fazer o login com uma senha e usuário qualquer. Inicialmente a página vai reportar um erro, pois estamos enviando informações para lugar nenhum. Coloque em "voltar" no seu navegador para voltarmos a página de formulário. Os campos da tag form são os seguintes:
 + **method:** esse é o método que vai no cabeçalho do pacote HTTP. Diversos tipos de métodos são usados em redes de computadores como: "GET", "POST", "PUT" e "DELETE". Mudar esse argumento vai mudar o campo do cabeçalho HTTP.
-+ **action:** nesse caso, action recebe uma url para mandar esse pacote. Então se quisermos, por exemplo, mandar um pacote para facebook/login, podemos fazer: `<form action="facebook/login>"`. No caso da nossa aplicação, um erro ocorre pois não existe "/envio". Experimente colocar "/formulario.html" (ou o nome que escolheu para o arquivo).
++ **action:** nesse caso, action recebe uma url para mandar esse pacote. Então se quisermos, por exemplo, mandar um pacote para facebook/login, podemos fazer: `<form action="facebook/login>"`. No caso da nossa aplicação, um erro ocorre pois não existe "/envio". Experimente colocar "/formulario.html" (ou o nome que escolheu para o arquivo) e enviar um formulário.
+
+## Transmissão de conteúdo:
+
+Perceba sua URL na parte de cima do navegador. Ela deve estar como na imagem abaixo (se não estiver tente clicar nela):
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/91272e0a-b406-4e65-aba3-036bf76ca02c)
+
+Repare que existem dois campos na URL o **username** e o **password**, eles aparecem logo após o **?**. Esse é o modelo de envio de dados pela URL, ela segue o seguinte padrão: `www.urldosite?campo1=valor1&campo2=valor2&...campoN=valorN`. Existem outras maneiras de enviar dados pela web, essa é só uma delas. Você pode perceber que nossa senha esta sendo enviada sem qualquer tipo de segurança e nossa conta poderia ser facilmente hackeada, mas esse tipo de envio funciona para dados menos sensíveis.
+
+## Tarefa de casa:
+No formulario.html recrie os seguintes formulários (obs, use as sugestões do VSCode enquanto estiver digitando input para conseguir dicas to type do input):
+
+**1. formulário com campo numérico:**
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/66cb5a22-a6b9-4223-9743-2985ed226bc4)
