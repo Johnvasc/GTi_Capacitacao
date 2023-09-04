@@ -95,3 +95,65 @@ Agora vamos adicionar mais comandos no forms:
 
 ### Personalizando ainda mais:
 Qual personalizamos nosso form ainda mais? Agora vamos para os campos. Edite primeiro as labels, usando os comandos: `color:` para mudar a cor da fonte, `font-size:` para mudar o tamanho da fonte (px, rem, em). Mude também os inputs, usando os comandos `width` e `background-color`, bem como o botão. No botão não esqueça de usar um `padding` para aumentar seu tamanho e border-radius para arredondá-lo!
+
+## Personalização de chield:
+Uma possibilidade que o CSS oferece é a personalização diferente para um elemento que é chield. Por exemplo, insira dois h3 em seu arquivo html, um dentro do body e outro dentro de uma div, seguindo o exemplo abaixo:
+```
+    <h3>Um h3</h3>
+    <div>
+        <h3>Outro h3</h3>
+    </div>
+```
+Podemos personalizar os dois de maneira diferente, colocando no css:
+```
+h3{
+    color: blue;
+}
+div h3{
+    color: red;
+}
+```
+Dessa maneira, um dos h3 vai ser azul e o outro vermelho. Repare na segunda sintaxe, ela diz: "color:red vai ser aplicado a tags h3 chield de uma tag div, ou simplesmente div h3".
+
+## Ordem de leitura do CSS:
+Vamos incluir mais tags iguais no HTML, coloque um h4, por exemplo: <h4>Olá, sou um h4!</h4>. Em seguida coloque no seu CSS dois comandos diferentes para o h4:
+```
+h4{
+    color: blue;
+}
+h4{
+    color: yellow;
+}
+```
+Existe um conflito, pois no mesmo código estamos dizendo que tags h4 devem ser azuis e amarelas. Observe no navegador a cor do h4. Provavelmente seu h4 esta amarelo. Isso porque o CSS é lido e aplicado no html de cima para baixo, então comando escritos mais abaixo estão chegam na frente de comando mais em cima na hierarquia do CSS. Na próxima aula veremos opções mais sofisticadas de personalização e um pouco mais sobre hierarquia.
+
+## Tarefa de casa:
+
+Usando os códigos disponibilizados para o HTML, personalize conforme as imagens usando CSS.
+
+**1.Navbar:** Tente usar os comandos text-align, padding, margin, font-weight e outros.
+código:
+```
+    <nav>
+        <a href="">Home</a>
+        <a href="">Nossos Serviços</a>
+        <a href="">Sobre</a>
+        <a href="">Contato</a>
+    </nav>
+```
+exemplo:
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/136acbf1-4ede-441f-a76d-f06b38964bf2)
+
+**2.Footer:**
+código:
+```
+    <footer>
+        <h2>Onde nos encontrar</h2>
+        <p>Rua abc123</p>
+        <h2>Fone</h2>
+        <p>(99)1234-5678</p>
+        <button>Fale conosco!</button>
+    </footer>
+```
+exemplo:
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/fc671c75-0d5e-4e39-b844-7fb0570cfb16)
