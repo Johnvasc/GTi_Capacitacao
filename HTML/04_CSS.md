@@ -116,7 +116,7 @@ div h3{
 Dessa maneira, um dos h3 vai ser azul e o outro vermelho. Repare na segunda sintaxe, ela diz: "color:red vai ser aplicado a tags h3 chield de uma tag div, ou simplesmente div h3".
 
 ## Ordem de leitura do CSS:
-Vamos incluir mais tags iguais no HTML, coloque um h4, por exemplo: <h4>Olá, sou um h4!</h4>. Em seguida coloque no seu CSS dois comandos diferentes para o h4:
+Vamos incluir mais tags iguais no HTML, coloque um h4, por exemplo: `<h4>Olá, sou um h4!</h4>`. Em seguida coloque no seu CSS dois comandos diferentes para o h4:
 ```
 h4{
     color: blue;
