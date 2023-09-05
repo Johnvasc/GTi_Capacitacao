@@ -42,3 +42,45 @@ No CSS a sintaxe é a seguinte:
 ```
 Dessa maneira, os comandos dentro das chaves vão ser aplicados somente as tags que tiverem a classe _nomeDaClasse_. Repare no . antes do nome da classe. Ele é o identificador da classe. Comandos CSS para classes sempre devem ser precedidos de um "." .
  
+## Tarefa de casa:
+
+1. Replique o estilo light e dark para as navbars do código baixo.
+Dica1: atribua IDs diferentes para ambas as navs e personalize usando esses IDs no CSS.
+Dica2: utilize a sintaxe: `#nomeID nomeTag{comando: valor}` do CSS para utilizar menos comandos.
+código:
+```
+  <nav id="">
+    <a href="">Home</a>
+    <a href="">Sobre</a>
+    <a href="">Nossos serviços</a>
+    <a href="">Contatos</a>
+  </nav>
+  <nav id="">
+    <a href="">Home</a>
+    <a href="">Sobre</a>
+    <a href="">Nossos serviços</a>
+    <a href="">Contatos</a>
+  </nav>
+</body>
+```
+imagem:
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/55d98a41-3d8c-46bb-a9d7-94d70eb0744d)
+
+
+2. Crie três cards seguindo o código e personalize eles utilizando CSS. Cada card deve ter um tema claro e um tema escuro!
+Dica: use a sintaxe: `<div class = "classe1 classe2></div>"`. A classe1 pode ser uma personalização geral para os cards, enquanto a dois pode ser o tema claro ou escuro, dependendo do card!
+código:
+```
+  <div class="">
+    <h2>Troca de antimatéria</h2>
+    <p>Na KE você faz a troca de antimatéria sem problemas adicionais. Existe garantia e cobertura total.</p>
+  </div>
+  <div class="">
+    <h2>Lataria de cometa</h2>
+    <p>Pensando em ter a lataria mais resistente da via lactia? Aqui deixamos você mais blindado que um cometa!</p>
+  </div>
+  <div class="">
+    <h2>Troca de núcleo espacial</h2>
+    <p>Núcleos verídicos, encontrados no centro de estrelas de neutrons, para uma autonomia de 5000000 de anos luz!</p>
+  </div>
+```
