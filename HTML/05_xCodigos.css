@@ -1,0 +1,43 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: yellow;
+}
+nav{
+  padding: 2rem 1rem;
+  text-align: right;
+}
+#nav-dark{
+  background-color: black;
+}
+#nav-dark a{
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+}
+#nav-light{
+  background-color: white;
+}
+#nav-light a{
+  color: black;
+  text-decoration: none;
+  margin-right: 25px;
+}
+.card{
+  width: 25%;
+  border-radius: 12px;
+  padding: 1.5rem 1.5rem 3rem 1.5rem;
+}
+.card h2{
+  text-align: center;
+}
+.card-dark{
+  background-color: black;
+  border: solid 1px white;
+  color: white;
+}
+.card-light{
+  background-color: white;
+  border: solid 1px black;
+  color: black;
+}
