@@ -63,7 +63,7 @@ código:
   </nav>
 </body>
 ```
-imagem:
+referência:
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/55d98a41-3d8c-46bb-a9d7-94d70eb0744d)
 
 
@@ -84,3 +84,5 @@ código:
     <p>Núcleos verídicos, encontrados no centro de estrelas de neutrons, para uma autonomia de 5000000 de anos luz!</p>
   </div>
 ```
+referência:
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/61c60070-1b9d-4852-bdc2-ed1376720217)
