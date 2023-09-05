@@ -45,7 +45,9 @@ Dessa maneira, os comandos dentro das chaves vão ser aplicados somente as tags 
 ## Tarefa de casa:
 
 1. Replique o estilo light e dark para as navbars do código baixo.
+
 Dica1: atribua IDs diferentes para ambas as navs e personalize usando esses IDs no CSS.
+
 Dica2: utilize a sintaxe: `#nomeID nomeTag{comando: valor}` do CSS para utilizar menos comandos.
 código:
 ```
@@ -64,6 +66,7 @@ código:
 </body>
 ```
 referência:
+
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/55d98a41-3d8c-46bb-a9d7-94d70eb0744d)
 
 
@@ -85,4 +88,5 @@ código:
   </div>
 ```
 referência:
+
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/61c60070-1b9d-4852-bdc2-ed1376720217)
