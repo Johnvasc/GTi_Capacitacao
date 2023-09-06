@@ -6,4 +6,4 @@ Nessa aula veremos um pouco sobre posicionamento de elementos usando o CSS. Norm
 
 ## Display flex:
 
-Como dito acima, o display: flex é uma ferramenta interessante do CSS para manipular a posição de elementos HTML. DIferente do position, left, top e etc. o display: flex não pode manipular os elementos por pixels, distancias ou porcentagem. Ele é mais um organizador, que facilita nosso trabalho, pois nos polpa de ter que calcular, por exemplo, o número de pixels para centralizar um elemento. O display: flex é aplicado aos elementos child daqueles que selecionamos
+Como dito acima, o display: flex é uma ferramenta interessante do CSS para manipular a posição de elementos HTML. DIferente do position, left, top e etc. o display: flex não pode manipular os elementos por pixels, distancias ou porcentagem. Ele é mais um organizador, que facilita nosso trabalho, pois nos polpa de ter que calcular, por exemplo, o número de pixels para centralizar um elemento. O display: flex é aplicado aos elementos child daqueles que selecionamos.
