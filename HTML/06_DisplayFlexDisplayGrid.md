@@ -39,13 +39,27 @@ Fragmentando ainda mais: na imagem abaixo fragmentamos ainda mais a seção, adi
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/b72dcf78-8715-4be3-99ef-c7109d211df2)
 
+## Comandos relacionados:
+Uma vez que temos um elemento pai com o estado flex, podemos adiconar mais comandos.
+
 ### Flex-direction: row x column:
 
-Uma vez que temos um elemento pai com o estado flex, podemos adiconar mais comandos, um deles é o flex-direction. Abaixo temos uma comparação do column vs. row.
+O flex-direction orienta o CSS acerca do direcionamento dos itens filhos. Podemos fazer uma analogia as setas dos exemplos acima. Abaixo temos uma comparação de uma mesma seção com flex-direcion column vs. row.
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/bb1dccd5-b97d-466e-953f-04206271d3dc)
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/d929ccbf-cbd2-4731-aed4-bf74e2bc948c)
 
+### Align-itens:
+
+O comando align-itens orienta acerca da orientação dos itens filho. align-itens: (left, center)
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/590e8ecb-ce4c-4ffb-8d5d-5c6c3e25c4b0)
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/f624cfef-0612-41f2-b8d1-ebfa9e340453)
+
+### Justify-content:
+
+O comando justify-content tem uma função muito parecida com align-itens, porém no sentido inverso. **importante:** align-itens e justify-content se invertem dependendo do row ou column.
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/7b87bb40-3a53-4b23-aab5-e53e6a5a7a9e)
 
 
-###
