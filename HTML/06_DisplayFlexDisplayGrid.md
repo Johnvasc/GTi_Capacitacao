@@ -62,4 +62,19 @@ O comando justify-content tem uma função muito parecida com align-itens, poré
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/7b87bb40-3a53-4b23-aab5-e53e6a5a7a9e)
 
+## Display grid:
 
+Display: grid é outra ferramenta interessante para ordenação de elementos. Esse comando funciona, como o nome diz, como uma grade. Um exemplo pode ser visto abaixo:
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/36d8462b-f438-4841-97ac-47f946e8dde2)
+
+Assim como o display: flex, o display: grid também é aplicado nos elemententos child. Na imagem acima temos o grid aplicado a uma div pai sobre elementos filhos button. Eles estão espaçados em colunas de quatro igualmente segundo o seguinte comando: `grid-template-columns: 25% 25% 25% 25%;`. Existem mais exemplos abaixo:
+
+**grid-template-columns: 33% 33% 33%:**
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/bd98e4b4-33b3-41b0-95d7-3d0b3a330dc8)
+
+
+**grid-template-columns: 50% 50%:**
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/374b0b3a-ad59-4622-9f44-55491c052bb8)
+
+**grid-template-columns: 20% 20% 33%:**
