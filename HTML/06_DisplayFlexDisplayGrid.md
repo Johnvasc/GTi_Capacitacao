@@ -77,6 +77,7 @@ Assim como o display: flex, o display: grid também é aplicado nos elemententos
 **grid-template-columns: 50% 50%:**
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/374b0b3a-ad59-4622-9f44-55491c052bb8)
 
-**grid-template-columns: 12rem 12rem 12rem**
+**grid-template-columns: 12rem 12rem 12rem:**
+
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/9d9e7b7a-572a-49d7-869b-b3a15a783f6d)
 
