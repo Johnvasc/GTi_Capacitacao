@@ -62,6 +62,17 @@ O comando justify-content tem uma função muito parecida com align-itens, poré
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/7b87bb40-3a53-4b23-aab5-e53e6a5a7a9e)
 
+## Usando o devtools:
+
+O devtools do seu navegador vai ser uma ferramenta interessante para quando estiver trabalhando com flexbox. No chrome você pode apertar `F12` no seu teclado para chamar o devtools, no Opera é: `Ctrl + Shift + C`. Quando você acessar o devtools, uma janela como da imagem abaixo vai abrir. Em sua jornada de desenvolvimento web, essa janela de devtools vai ser sua companheira constante! Podemos selecionar elementos do HTML para espioná-los um pouco melhor pelo devtools a partir da seta circulada em vermelho. Primeiro clicamos nela, depois no elemento que queremos examinar. Ou podemos clicar na janela logo abaixo, repare que ele discrimina elementos que estão selecionados com display: flex ou grid. Uma vez que você selecionou um elemento com flexbox o botão circulado em azul vai aparecer. Nele você pode colocar opções de flexbox e ver a mudança em tempo real, assim pode voltar para o CSS e colocar o mesmo comando.
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/ef264213-52a6-4723-8543-a2ed303f7a58)
+
+Observe que os comandos estão indexados junto com seus códigos em CSS para que você possa fazer a alteração no arquivo caso goste das mudanças. É importante saber que a alteração no devtools NÃO será salva, é apenas uma mudança visual para observação.
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/91a56522-330a-42ee-970f-c5b323dfd0a7)
+
+
 ## Display grid:
 
 Display: grid é outra ferramenta interessante para ordenação de elementos. Esse comando funciona, como o nome diz, como uma grade. Um exemplo pode ser visto abaixo:
@@ -80,4 +91,103 @@ Assim como o display: flex, o display: grid também é aplicado nos elemententos
 **grid-template-columns: 12rem 12rem 12rem:**
 
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/9d9e7b7a-572a-49d7-869b-b3a15a783f6d)
+
+## Tarefa de Casa:
+
+**1. Jogue esse joguinho para se familiarizar com os displays:**
+https://flexboxfroggy.com
+
+**2. Use display: flex e o código abaixo para reproduzir as imagens.**
+
+```
+    <section id="father">
+        <div id="textDiv">
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, veniam?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sint dolor, amet, distinctio, eos incidunt recusandae ab quos repellendus nostrum necessitatibus reprehenderit vitae perferendis qui. Natus cumque, aut ullam cum quae fugit ad nulla aperiam odio accusantium, officia sed totam quis veritatis minus eius, debitis accusamus blanditiis. Qui, totam alias.</p>
+        </div>
+        <form action="">
+            <input type="text" placeholder="nome">
+            <input type="text" placeholder="endereço">
+            <input type="email" placeholder="email">
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+            <button>Enviar</button> 
+        </form>
+    </section>
+```
+
+
+imagem 1:
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/23e61ac6-1c1b-483b-8ec1-46d837af63a5)
+
+imagem 2:
+dica: utilize os comandos align-itens e justify-content.
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/37b842d7-64e1-4452-9f06-1a2d7b7eb2a0)
+
+**3. Use o código abaixo e o display: grid para reproduzir as imagens abaixo:**
+
+```
+    <section id="father">
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, illum! Ut fugit quas repudiandae libero!</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, illum! Ut fugit quas repudiandae libero!</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, illum! Ut fugit quas repudiandae libero!</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, illum! Ut fugit quas repudiandae libero!</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, illum! Ut fugit quas repudiandae libero!</p>
+        </div>
+        <div class="card">
+            <h2>Lorem ipsum dolor sit amet.</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, illum! Ut fugit quas repudiandae libero!</p>
+        </div>
+    </section>
+```
+
+inclua também no css:
+
+```
+body{
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+}
+.card{
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 2rem 3rem;
+  margin-bottom: 2rem;
+}
+.card h2{
+  text-align: center;
+}
+button{
+  padding: .8rem 1.4rem;
+  border-radius: 12px;
+  background-color: rgb(79, 248, 0);
+  color: white;
+  max-width: 10rem;
+}
+```
+
+imagem1:
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/2fba3c62-a253-4922-a872-b949feac1d36)
+
+imagem2:
+
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/19f6c5a7-7180-4156-b1cf-7002058a89ff)
 
