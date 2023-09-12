@@ -35,9 +35,7 @@ O comando `div > p {color: red;}` não irá colorir p, porém o comando: `div p 
 Podemos selecionar elementos também por atributos! Lembra quando estávamos na lição de formulários e tínhamos, por exemplo: `<input type="text">` ou `<label for="email">Email</label>`? Esses campos tem os atributos "for" e "type", mas ainda existem outros como: "href", "src", "name", "method", "placeholder", "id" e "class". A sintaxe para selecionar por atributo é a seguinte: `seletor[type="atributo"]`, exemplos: `input[name="username"]`, `form[method="GET"]`, `a[href]`, `label[for="Password"]`.
 
 ## Seletores de pseudoclasses:
-
-
-
-## Tarefa de casa:
-1. Pesquisar sobre o seletos irmãos ou + e ~.
-2. 
+Esses seletores são usados para aplicar estilos a estados específicos de elementos, sua sintaxe é a seguinte `selector:estado`. Um exemplo clássico é o hover, que é o estado que o elemento atinge quando o mouse esta sobre ele. Outros estados:
+- `active`: um elemento que recebeu um clique.
+- `focus`: um input que esta recebendo dados.
+- `first-child` e `last-child`: primeiro e último filho de algum elemento.
