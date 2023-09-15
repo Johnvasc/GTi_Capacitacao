@@ -27,4 +27,45 @@ Você pode testar a responsividade usando o devtools. Primeiro abra o devtools (
 
 ## Aplicando efeitos diferentes no CSS para diferentes tamanhos de tela:
 
-Para aplicar CSS customisado com base no tamanho da tela,
+Para aplicar CSS customisado com base no tamanho da tela, podemos usar a sintaxe `@media screen and (condições){comandosCSS}`. Vamos ver alguns exemplos:
+
+**ex1: Body vermelho para aparelhos com largura de tela maior que 1024px:**
+```
+@media screen and (min-width: 1024px){
+  body{
+      background-color: red;
+  }
+}
+```
+
+**ex2: mudando o tamanho de imagens para aparelhos com a largura entre 720px e 1024px:**
+```
+@media screen and (min-width: 720px) and (max-width: 1023px){
+  img{
+    width: 50vw;
+  }
+}
+```
+
+**ex3: empregando vários comandos para aparelhos cuja altura da tela seja menor que 600px:**
+```
+@media screen and (max-height: 600px){
+  img{
+    height: 10vh;
+  }
+  p{
+    color: dark-gray;
+    font-size: 12px;
+  }
+  body{
+    background-color: yellow;
+  }
+}
+```
+teste os códigos CSS acima usando o devtools para diminuir o tamanho da tela.
+
+## Unidades de tamanho responsivas:
+
+Nos exemplos acima, pudemos ver duas novas unidades de tamanho, são elas: vh e vw. A viewport height é uma unidade de medida relativa em porcentagem ao tamanho da altura da janela do navegador, então se quisermos que uma imagem tenha uma altura oculpe 10% do tamanho da janela do usuário, podemos fazer `img{height: 10vh;}`. Vh, claro, pode ser usado em outros contextos como: `p{font-size: 2vh}` ou `div{widht: 15vh}`. O Vw (viewport width) é muito semelhante ao height, porém e relativa ao cumprimento em porcentagem da janela. Assim, se quisermos que a largura das divs sejam 30% da largura da janela exibida no navegador, podemos fazer `div{widht: 30vw;}`. Repare que essas medidas, tanto vw quanto vh, dependem do tamanho da tela e irão se ajustar. Contudo, essas medidas podem não ser indicadas em alguns casos, sendo mais interessantes para fazer itens de tamanhos harmoniosos (por exemplo se formos posicionar 4 divs lado a lado, pode ser interessante que cada tenha 25% ou 20% do tamanho da largura da tela).
+
+
