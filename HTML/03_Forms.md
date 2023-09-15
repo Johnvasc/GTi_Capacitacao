@@ -11,8 +11,9 @@ Vamos criar um novo arquivo html no nosso diretório, você pode chamá-lo de `f
 ## Criando um novo formulário:
 
 Dentro da tag `<body>` iremos incluir a tag `<form>`. Essa é a tag de formulário e pode receber alguns argumentos que iremos explorar mais tarde. Inicialmente iremos colocar os argumentos:
-+ method = "post"
-+ action = "/envio"
++ method = "post".
++ action = "/envio".
+  
 Assim, nossa tag form vai ficar com essa cara: `<form method="get" action="/envio"></form>`;
 
 ## Inserindo campos de formulário:
