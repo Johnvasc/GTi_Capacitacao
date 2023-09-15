@@ -21,7 +21,8 @@ Assim, nossa tag form vai ficar com essa cara: `<form method="get" action="/envi
 Em geral, formulários tem campos para o usuário responder. Vamos experimentar alguns deles. Dentro da tag `<form>` insira:
 + **label:** Labels são textos de descrição. Eles descrevem o tipo de informação que o usuário deve colocar no input abaixo. Então coloque a seguinte label: `<label for="username">Seu nome</label>`
 + **input:** Inputs são os campos que receberão as respostas do usuário. Existem vários tipos de input: texto, número, senha, data, etc. O tipo do campo vai ser definido no argumento _type_, por exemplo: "text", "password", "number", entre outros. Então coloque: `<input name="username" type="text">`. Perceba o atributo _name_. Ele faz a união da tag com o input, relacionando-se com o _for_.
-+ **label 2:** Iremos inserir mais labels, uma para cada campo, então coloque: `<label for="password">sua senha</label>`
++ **label 2:** Iremos inserir mais labels, uma para cada campo, então coloque: `<label for="password">sua senha</label>`.
++ **input 2:** Iremos colocar também um input de senha: `<input name="password" type="password">` 
 + **button:** Essa tag cria um botão para envio de formulário ou chamado de funções javascript. Ele deve ficar assim: `<button>Entrar</button>`. O texto "Entrar", localizado na tag é o texto exibido no botão.
 + **br:** Br é a tag de quebrar linha (deve vir do inglês, break). Coloque uma tag br depois de cada tag acima para o formulário ficar mais legível.
 
