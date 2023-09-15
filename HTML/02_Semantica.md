@@ -31,17 +31,16 @@ Repare que as divs são _chields_ do elemento pai, a section. Em geral divs est�
 ![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/975a51f1-5ff6-462c-87d9-674226e16556)
 
 ## Atividade:
-Vamos retomar o código da lição anterior e utilizar a sintaxe correta para segmentá-lo, colocando os elementos da página como chields dos segmentadores seguindo a sintaxe do html. Começaremos com o cabeçalho:
+Vamos retomar o código da lição anterior e utilizar a sintaxe correta para segmentá-lo, colocando os elementos da página como chields dos segmentadores seguindo a sintaxe do html. Começaremos com o cabeçalho, veja o exemplo abaixo. primeiro crie um elemento nav. Em seguida crie duas divs chields. Dentro da primeira div coloque as tags de link e dentro da segunda o título h1 e o subtítulo.
 
-![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/57044335-e0d6-45da-b95c-d85ad1abbef2)
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/1a3457e1-4983-4b0c-91a9-d25e7005f9a1)
 
-primeiro crie um elemento nav. Em seguida crie duas divs chields. Dentro da primeira div coloque as tags de link e dentro da segunda o título h1 e o subtítulo.
 Em seguida crie uma main para o conteúdo principal da página. O esquema abaixo deve estar presente dentro da main, com o demarcado azul sendo uma section e os demarcados em verde sendo divs.
 
-![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/7d0192c4-382c-468e-9ddc-4b30e853696c)
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/7964e890-e9e7-411f-a34f-b5bdc37047fb)
 
-Por fim, crie o esquema abaixo. A parte contornada em azul deve estar dentro de uma tag nav e a parte demarcada em verde deve estar dentro de duas divs.
+Por fim, crie o esquema abaixo. A parte contornada em azul deve estar dentro de uma tag footer e as partes demarcadas em verde devem estar dentro de duas divs.
 
-![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/33fc72cc-13f1-4fa4-a1f7-cc4bc42a00cc)
+![image](https://github.com/Johnvasc/GTi_Capacitacao/assets/39773960/217439af-9e7c-45d6-9c5c-226c6d2d1f45)
 
 O código atual de nossa página é o próximo arquivo. Você pode comparar com o seu e usar tirar dúvidas com o seu guardião. Na próxima lição aprenderemos os primeiros passos de CSS.
