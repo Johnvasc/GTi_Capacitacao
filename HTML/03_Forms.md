@@ -42,7 +42,7 @@ Repare que existem dois campos na URL o **username** e o **password**, eles apar
 
 ## Placeholder:
 
-Uma opção ao uso da tag <label> é a insersão do argumento placeholder dentro do input. Ele segue a seguinte sintaxe: `<input name="username" type="text" placeholder="Seu nome">` Esse argumento vai fazer que o texto que voc
+Uma opção ao uso da tag <label> é a insersão do atributo placeholder dentro do input. Ele segue a seguinte sintaxe: `<input name="username" type="text" placeholder="Seu nome">` Esse argumento vai fazer que o texto que você escreveu apareça dentro da input.
 
 
 ## Tarefa de casa:
